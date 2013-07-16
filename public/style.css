@@ -1,0 +1,41 @@
+body {
+	padding: 0px;
+	margin: 0px;
+}
+
+div.viewPane {
+	overflow: hidden;
+	position: relative;
+	width: 1440px;
+	height: 1050px;
+	background-color: gray;
+	padding: 0px;
+	margin: 0px;
+}
+
+div.node {
+	position: absolute;
+	width: 80px;
+	height: 80px;
+	border-radius: 55px;
+	border-width: 15px;
+	border-style: solid;
+	text-align: center;
+	background-color: rgb(213, 213, 213);
+	cursor: pointer;
+}
+
+div.node .nodeLabel {
+	color: black;
+	padding-top: 25px;
+	font-weight: bold;
+	font-size: 100%;
+	-webkit-user-select: none;
+}
+
+div.connection {
+	position: absolute;
+	background-color: black;
+	height: 5px;
+	-webkit-transform-origin: 0% 0%;
+}
