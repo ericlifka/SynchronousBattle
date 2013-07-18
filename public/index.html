@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <body>
+        <script type="text/x-handlebars">
+            {{outlet}}
+        </script>
+        <script type="text/x-handlebars" id="index">
+            <h1>People</h1>
+            
+            <ul>
+                {{#each model}}
+                    <li>Hello, <b>{{fullName}}</b>!</li>
+                {{/each}}
+            </ul>
+        </script>
+    
+        <script type='text/javascript' src='lib/jquery-1.8.3.js'></script>
+        <script type='text/javascript' src='lib/handlebars-1.0.beta.6.js'></script>
+        <script type='text/javascript' src='lib/ember-v1.0.0-pre.2-376.js'></script>
+        
+        <script type='text/javascript' src='gameApp.js'></script>
+    </body>
+</html>
